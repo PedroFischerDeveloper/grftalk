@@ -56,6 +56,7 @@ INSTALLED_APPS = [
     #Accounts
     'accounts',
     'attachments',
+    'chats',
 
 ]
 
