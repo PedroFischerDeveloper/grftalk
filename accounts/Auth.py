@@ -2,7 +2,7 @@ from accounts.models import User
 from django.contrib.auth.hashers import check_password, make_password
 
 class Authentication:
-    def sigin(self, email: str, password: str) -> User | bool:
+    def signin(self, email: str, password: str) -> User | bool:
         user = User.objects.filter(email = email).first()
 
         if user and check_password(password, user.password):

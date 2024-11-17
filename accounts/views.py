@@ -9,7 +9,7 @@ from django.utils.timezone import now
 
 from rest_framework_simplejwt.tokens import RefreshToken
 
-from accounts.auth import Authentication
+from accounts.Auth import Authentication
 from accounts.serializers import UserSerializer
 from accounts.models import User
 
